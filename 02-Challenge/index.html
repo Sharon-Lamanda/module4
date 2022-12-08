@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <div id="timer">
+        Time Remaining: <span id="time-remaining"></span>
+    </div>
+    <div class="start-screen">
+    <h1>Coding Quiz Challenge</h1>
+    <!-- insert <p and insert user instructions about quiz - will appear on screen-see example -->
+<button id="start">Start quiz
+</button>
+
+
+    </div>
+    
+    <div id="questions" class = "hide">
+        <h2 id="question-title"></h2>
+        <div id="choices"></div>
+
+    </div>
+    <div id="end-screen" class = "hide">
+        <h2>Game Over</h2>
+        <p>Your final score is <span id="final-score"></span></p>
+        <p>Enter your initials <input type="text" id="initials"></p>
+        <button id="submit">Submit</button>
+        
+    </div>
+    <div id="feedback" class = "hide"></div>
+    <div id="high-scores" class = "hide">
+        <ol id="scores"></ol>
+    </div>
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
